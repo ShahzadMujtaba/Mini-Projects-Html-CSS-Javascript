@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+}
+.image-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40rem;
+    height: 20rem;
+    border-radius: 50px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+.image-galary-icons{
+    display: flex;
+    width: 40vw; 
+    justify-content: space-between;
+    margin-top: 2rem;
+    height: 5rem;
+}
+.box{
+    display: flex;
+    cursor: pointer;
+    width: 10rem;
+    /* height: 5rem; */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
